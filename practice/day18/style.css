@@ -1,0 +1,47 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  animation: salman 5s alternate;
+  animation-iteration-count: infinite;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  padding: 20px;
+}
+/* @keyframes salman {
+  from {
+    background-color: brown;
+    color: aqua;
+  }
+  to {
+    background-color: chartreuse;
+    border-radius: 50%;
+    color: blue;
+  }
+} */
+@keyframes salman {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  25% {
+    top: 0px;
+    left: 200px;
+    border-radius: 50%;
+  }
+  50% {
+    top: 200px;
+    left: 200px;
+    border-radius: 0%;
+  }
+  75% {
+    top: 200px;
+    left: 0px;
+    border-radius: 50%;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}

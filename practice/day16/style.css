@@ -1,0 +1,25 @@
+p {
+  color: brown;
+  text-shadow: 2px 5px 10px rgb(11, 15, 112);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 100px;
+  font-family: "Dancing Script", cursive;
+  font-style: italic;
+}
+* {
+  color: red;
+}
+h1,
+h4 {
+  text-align: center;
+}
+.abc {
+  height: 100px;
+  width: 300px;
+  border: 2px solid black;
+  overflow: scroll;
+}
+span {
+  font-family: "Dancing Script", cursive;
+}

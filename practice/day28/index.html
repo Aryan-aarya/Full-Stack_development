@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Ra {
+            constructor(){
+                document.write("this is a class");
+            }
+        xy() {
+                document.write("this is a function class");
+            }
+        zz() {
+                document.write("this is 2nd function class");
+            }
+        add() {
+            var x=parseInt(prompt('Enter the first number '));
+            var y=parseInt(prompt('Enter the second number '));
+            const z = x+y;
+            document.write(z);
+        }
+        sub() {
+            var x= prompt("enter no 1 ");
+            var y= prompt("enter no 2 ");
+            document.write(x - y);
+        }
+        }
+        var a = new Ra;
+        // a.add();
+        a.sub();
+    </script>
+</body>
+</html>

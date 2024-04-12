@@ -1,0 +1,5 @@
+create react app (cra)
+mern
+mean - mongo db(nosql),express js,node js
+react(facebook)
+angular(google)

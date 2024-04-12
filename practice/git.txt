@@ -1,0 +1,857 @@
+91797@Aryan MINGW64 ~
+$ pwd
+/c/Users/91797
+
+91797@Aryan MINGW64 ~
+$ ls
+ AppData/             Downloads/              'My Documents'@                                                                                 OneDrive/       SendTo@           ntuser.ini
+'Application Data'@   Favorites/               NTUSER.DAT                                                                                     Pictures/      'Start Menu'@
+ Contacts/            IntelGraphicsProfiles/   NTUSER.DAT{5e57390e-ec04-11ed-9918-ad5ee8bb2466}.TM.blf                                        PrintHood@      Templates@
+ Cookies@             Links/                   NTUSER.DAT{5e57390e-ec04-11ed-9918-ad5ee8bb2466}.TMContainer00000000000000000001.regtrans-ms   Recent@         Videos/
+ Desktop/            'Local Settings'@         NTUSER.DAT{5e57390e-ec04-11ed-9918-ad5ee8bb2466}.TMContainer00000000000000000002.regtrans-ms  'Saved Games'/   ntuser.dat.LOG1
+ Documents/           Music/                   NetHood@                                                                                       Searches/       ntuser.dat.LOG2
+
+91797@Aryan MINGW64 ~
+$ mkdir regexsoftware
+
+91797@Aryan MINGW64 ~
+$ cd regexsoftware
+
+91797@Aryan MINGW64 ~/regexsoftware
+$ pwd
+/c/Users/91797/regexsoftware
+
+91797@Aryan MINGW64 ~/regexsoftware
+$ touch data.txt
+
+91797@Aryan MINGW64 ~/regexsoftware
+$ ls
+data.txt
+
+91797@Aryan MINGW64 ~/regexsoftware
+$ ls -a
+./  ../  data.txt
+
+91797@Aryan MINGW64 ~/regexsoftware
+$ touch .tushar.docx
+
+91797@Aryan MINGW64 ~/regexsoftware
+$ ls
+data.txt
+
+91797@Aryan MINGW64 ~/regexsoftware
+$ ls -a
+./  ../  .tushar.docx  data.txt
+
+91797@Aryan MINGW64 ~/regexsoftware
+$ rm .tushar.docx data.txt
+
+91797@Aryan MINGW64 ~/regexsoftware
+$ ls
+
+91797@Aryan MINGW64 ~/regexsoftware
+$ ls -a
+./  ../
+
+91797@Aryan MINGW64 ~/regexsoftware
+$ git init
+Initialized empty Git repository in C:/Users/91797/regexsoftware/.git/
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ ls -a
+./  ../  .git/
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ touch first.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ git add first.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   first.txt
+
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ git config --global user.name "Aryan-aarya"
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ git config --global user.email "aryanarya1142003@gmail.com"
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=Aryan-aarya
+user.email=aryanarya1142003@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ git commit
+[master (root-commit) c4056b7] first file of workshop
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ git log
+commit c4056b7c117fcd4755c4c0026df44705c8ad573e (HEAD -> master)
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 10:49:50 2023 +0530
+
+    first file of workshop
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ git remote add origin https://github.com/Aryan-aarya/regexsoftware.git
+
+91797@Aryan MINGW64 ~/regexsoftware (master)
+$ git branch -M main
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 224 bytes | 224.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Aryan-aarya/regexsoftware.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ vi count.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ cat count.txt
+ths
+london
+new york
+goa
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        count.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git add count.txt
+warning: in the working copy of 'count.txt', LF will be replaced by CRLF the next time Git touches it
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   count.txt
+
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ vi count.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   count.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   count.txt
+
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ cat count.txt
+london
+new york
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git restore count.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ cat count.txt
+ths
+london
+new york
+goa
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git commit -m "count file is here"
+[main 7081a6c] count file is here
+ 1 file changed, 4 insertions(+)
+ create mode 100644 count.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git log
+commit 7081a6c3fef55ba81b553065bacec59b785c7b28 (HEAD -> main)
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 11:48:13 2023 +0530
+
+    count file is here
+
+commit c4056b7c117fcd4755c4c0026df44705c8ad573e (origin/main)
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 10:49:50 2023 +0530
+
+    first file of workshop
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 306 bytes | 306.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Aryan-aarya/regexsoftware.git
+   c4056b7..7081a6c  main -> main
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git log
+commit 7081a6c3fef55ba81b553065bacec59b785c7b28 (HEAD -> main, origin/main)
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 11:48:13 2023 +0530
+
+    count file is here
+
+commit c4056b7c117fcd4755c4c0026df44705c8ad573e
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 10:49:50 2023 +0530
+
+    first file of workshop
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ vi yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ cat yash.txt
+10
+20
+30
+40
+50
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git add yash.txt
+warning: in the working copy of 'yash.txt', LF will be replaced by CRLF the next time Git touches it
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   yash.txt
+
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ vi yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   yash.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   yash.txt
+
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git diff
+warning: in the working copy of 'yash.txt', LF will be replaced by CRLF the next time Git touches it
+diff --git a/yash.txt b/yash.txt
+index dd76fe4..1d7d7ee 100644
+--- a/yash.txt
++++ b/yash.txt
+@@ -3,3 +3,6 @@
+ 30
+ 40
+ 50
++res
++new
++london
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ vi yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git diff
+warning: in the working copy of 'yash.txt', LF will be replaced by CRLF the next time Git touches it
+diff --git a/yash.txt b/yash.txt
+index dd76fe4..9828cc4 100644
+--- a/yash.txt
++++ b/yash.txt
+@@ -3,3 +3,8 @@
+ 30
+ 40
+ 50
++res
++new
++london
++hi
++
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ vi yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git diff
+warning: in the working copy of 'yash.txt', LF will be replaced by CRLF the next time Git touches it
+diff --git a/yash.txt b/yash.txt
+index dd76fe4..1c1813a 100644
+--- a/yash.txt
++++ b/yash.txt
+@@ -1,5 +1,7 @@
+ 10
+ 20
+ 30
+-40
+-50
++res
++new
++london
++hi
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ touch data.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ touch new.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ ls
+count.txt  data.txt  first.txt  new.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   yash.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   yash.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        data.txt
+        new.txt
+
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git clean -f
+Removing data.txt
+Removing new.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ ls
+count.txt  first.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git log
+commit 7081a6c3fef55ba81b553065bacec59b785c7b28 (HEAD -> main, origin/main)
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 11:48:13 2023 +0530
+
+    count file is here
+
+commit c4056b7c117fcd4755c4c0026df44705c8ad573e
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 10:49:50 2023 +0530
+
+    first file of workshop
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ ls
+count.txt  first.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git checkout 7081a
+Note: switching to '7081a'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 7081a6c count file is here
+A       yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware ((7081a6c...))
+$ ls
+count.txt  first.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware ((7081a6c...))
+$ git checkout c4056b
+Previous HEAD position was 7081a6c count file is here
+HEAD is now at c4056b7 first file of workshop
+A       yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware ((c4056b7...))
+$ ls
+first.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware ((c4056b7...))
+$ ls
+first.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware ((c4056b7...))
+$ git checkout main
+Previous HEAD position was c4056b7 first file of workshop
+Switched to branch 'main'
+A       yash.txt
+Your branch is up to date with 'origin/main'.
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ ls
+count.txt  first.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git log
+commit 7081a6c3fef55ba81b553065bacec59b785c7b28 (HEAD -> main, origin/main)
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 11:48:13 2023 +0530
+
+    count file is here
+
+commit c4056b7c117fcd4755c4c0026df44705c8ad573e
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 10:49:50 2023 +0530
+
+    first file of workshop
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git tag "1.0" 7081a
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git log
+commit 7081a6c3fef55ba81b553065bacec59b785c7b28 (HEAD -> main, tag: 1.0, origin/main)
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 11:48:13 2023 +0530
+
+    count file is here
+
+commit c4056b7c117fcd4755c4c0026df44705c8ad573e
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 10:49:50 2023 +0530
+
+    first file of workshop
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git push --tags
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Aryan-aarya/regexsoftware.git
+ * [new tag]         1.0 -> 1.0
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git tag "2.0" c4056
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git log
+commit 7081a6c3fef55ba81b553065bacec59b785c7b28 (HEAD -> main, tag: 1.0, origin/main)
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 11:48:13 2023 +0530
+
+    count file is here
+
+commit c4056b7c117fcd4755c4c0026df44705c8ad573e (tag: 2.0)
+Author: Aryan-aarya <aryanarya1142003@gmail.com>
+Date:   Tue Nov 28 10:49:50 2023 +0530
+
+    first file of workshop
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git push --tags
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Aryan-aarya/regexsoftware.git
+ * [new tag]         2.0 -> 2.0
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git branch
+* main
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git add .
+warning: in the working copy of 'yash.txt', LF will be replaced by CRLF the next time Git touches it
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git commit -m "all files"
+[main d225c84] all files
+ 1 file changed, 7 insertions(+)
+ create mode 100644 yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 331 bytes | 331.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Aryan-aarya/regexsoftware.git
+   7081a6c..d225c84  main -> main
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git branch
+* main
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git branch feature
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git branch
+  feature
+* main
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ git branch
+* feature
+  main
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ ls
+count.txt  first.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ touch index.html
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ touch index.css
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ ls
+count.txt  first.txt  index.css  index.html  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ date > first.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ cat first.txt
+Tue Nov 28 14:04:47 IST 2023
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ git status
+On branch feature
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   first.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.css
+        index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ git add .
+warning: in the working copy of 'first.txt', LF will be replaced by CRLF the next time Git touches it
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ git commit -m "all files"
+[feature faad486] all files
+ 3 files changed, 1 insertion(+)
+ create mode 100644 index.css
+ create mode 100644 index.html
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ git push
+fatal: The current branch feature has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ git status
+On branch feature
+nothing to commit, working tree clean
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ ls
+count.txt  first.txt  index.css  index.html  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (feature)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ ls
+count.txt  first.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git merge feature
+Updating d225c84..faad486
+Fast-forward
+ first.txt  | 1 +
+ index.css  | 0
+ index.html | 0
+ 3 files changed, 1 insertion(+)
+ create mode 100644 index.css
+ create mode 100644 index.html
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ ls
+count.txt  first.txt  index.css  index.html  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ cat first.txt
+Tue Nov 28 14:04:47 IST 2023
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git branch development
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git checkout -b testing
+Switched to a new branch 'testing'
+
+91797@Aryan MINGW64 ~/regexsoftware (testing)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ touch maindata.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git add .
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git commit -m "all files"
+[main 464f305] all files
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 maindata.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 556 bytes | 556.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Aryan-aarya/regexsoftware.git
+   d225c84..464f305  main -> main
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ ls
+count.txt  first.txt  index.css  index.html  maindata.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git checkout testing
+Switched to branch 'testing'
+
+91797@Aryan MINGW64 ~/regexsoftware (testing)
+$ ls
+count.txt  first.txt  index.css  index.html  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (testing)
+$ git merge main
+Updating faad486..464f305
+Fast-forward
+ maindata.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 maindata.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (testing)
+$ ls
+count.txt  first.txt  index.css  index.html  maindata.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (testing)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git branch tushar
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git checkout tushar
+Switched to branch 'tushar'
+
+91797@Aryan MINGW64 ~/regexsoftware (tushar)
+$ touch t1.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (tushar)
+$ git add .
+
+91797@Aryan MINGW64 ~/regexsoftware (tushar)
+$ git commit -m "all"
+[tushar 8f1bd32] all
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 t1.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (tushar)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ touch t2.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git add .
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git commit -m "all"
+[main 978cd30] all
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 t2.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git branch regex
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ touch t3.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git add .
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git commit -m "all"
+[main 7a73cac] all
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 t3.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git checkout regex
+Switched to branch 'regex'
+
+91797@Aryan MINGW64 ~/regexsoftware (regex)
+$ touch t4.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (regex)
+$ git add .
+
+91797@Aryan MINGW64 ~/regexsoftware (regex)
+$ git commit -m "all"
+[regex 17307c2] all
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 t4.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (regex)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git merge tushar
+Merge made by the 'ort' strategy.
+ t1.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 t1.txt
+
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ ls
+count.txt  first.txt  index.css  index.html  maindata.txt  t1.txt  t2.txt  t3.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ git clone https://github.com/DigitalVarun/new
+Cloning into 'new'...
+remote: Enumerating objects: 88, done.
+remote: Counting objects: 100% (2/2), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 88 (delta 0), reused 0 (delta 0), pack-reused 86
+Receiving objects: 100% (88/88), 8.43 MiB | 1.37 MiB/s, done.
+Resolving deltas: 100% (12/12), done.
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$ ls
+count.txt  first.txt  index.css  index.html  maindata.txt  new/  t1.txt  t2.txt  t3.txt  yash.txt
+
+91797@Aryan MINGW64 ~/regexsoftware (main)
+$

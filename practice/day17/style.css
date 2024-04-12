@@ -1,0 +1,21 @@
+img {
+  height: 100px;
+  width: 120px;
+  margin: 400px;
+  /* position: absolute;
+  z-index: -1; */
+  /* transition: width 2s , height 2s ,transform 10s; */
+  transition: transform 5s;
+}
+/* p {
+  margin-top: 0px;
+} */
+img:hover {
+    /* transform: scale(3,3); */
+    /* transform: skew(20deg); */
+    transform: translate(400px,0px);
+    /* transform: rotate(170deg); */
+    /* width: 200px; */
+    /* height: 200px; */
+
+}

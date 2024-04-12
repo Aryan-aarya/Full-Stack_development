@@ -1,0 +1,39 @@
+/* type selector */
+body {
+    color: rgb(14, 41, 195);
+    background-color: rgb(159, 246, 210);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* class selector */
+.a1 {
+    color: brown;
+}
+.a2 {
+    background-color: rgb(217, 84, 22);
+}
+/* Id selector */
+#list1 {
+    background-color: chartreuse;
+}
+#list2{
+    color: brown;
+}
+/* attribute selector */
+a[href="youtube.com"] 
+{
+    color: red;
+    text-decoration: none;
+}
+input[type="text"]
+{
+    color: rgb(246, 0, 0);    
+}
+/* pesudo selector */
+.a2:hover{
+    color: yellow;
+}
+/* universal selector */
+*{
+    margin: 2%;
+}

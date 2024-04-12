@@ -1,0 +1,16 @@
+img{
+    border: 3px red solid;
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+}
+.second{
+    position: fixed;
+    bottom: 300px;
+    right: 10px;
+}
+.third{
+    position: sticky;
+    top: 50px;
+    left: 120px;
+}

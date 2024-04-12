@@ -1,0 +1,98 @@
+/* colour coding */
+body {
+    background-color: rgb(21, 21, 146);
+}
+
+.hedding {
+    background-color: #aaaaaa;
+}
+
+.para {
+    background-color: beige;
+}
+
+
+/* dimention */
+.div1 {
+    background-color: aqua;
+    width: 40%;
+    height: 100px;
+    font-size: 2.25rem;
+    /* we genrally use rem in place of em */
+    /* 1em=16px */
+    margin: 100px 300px 30px 50px;
+    /* we right in the terms of top right bottom and left */
+    padding: 30px;
+
+}
+
+.hedding {
+    margin: 100px 200px;
+    /* vetical and horizontal  */
+    padding: 2%;
+}
+
+.para {
+    margin-left: 50px;
+    /* for a perticular side */
+    width: 50%;
+    height: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    /* auto is use to take centerlize */
+    padding: 2%;
+    text-align: center;
+}
+
+/* display and position */
+h3 {
+    display: inline;
+    /* present the output in same line */
+
+}
+
+span {
+    width: 30px;
+    display: inline-block;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    /* we can change the hight and width of a image altho it is inline */
+    border: 20px solid aquamarine;
+    border-radius: 50%;
+    /* it is use to define the boder */
+}
+
+.div1 {
+    border-radius: 50px;
+    text-align: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: aqua;
+    position: relative;
+
+}
+
+.box2 {
+    background-color: crimson;
+    position: absolute;
+    left: 50px;
+    /* absolute is use to free the block from scope no effect on the another items */
+}
+
+.box3 {
+    background-color: chocolate;
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+    /* they are use to custom position of a block */
+    margin-block-start: 300px;
+}
