@@ -1,0 +1,22 @@
+*{
+    /* global variable */
+    --dark-red:#981a2c;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid brown;
+    background-color: red;
+    height:300px ;
+    width:300px ;
+    background-color: var(--dark-red);
+}
+
+.box{
+    border: 2px solid green;
+    background-color: aqua;
+    /* local variable */
+    --dark-blue:#1a2d98;
+    color:var(--dark-blue);
+}
