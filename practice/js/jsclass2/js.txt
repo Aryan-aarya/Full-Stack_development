@@ -1,0 +1,6 @@
+primitive are copied by their value
+references are copied by their address/references
+
+garbage coolector is a tool in js which dealocates the memory of
+var/const which are not in use
+we have no controle over garbage coolector
